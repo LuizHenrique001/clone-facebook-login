@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f2f5;
+}
+
+main {
+    text-align: center;
+    margin-top: 98px;
+    display: flex;
+}
+
+.container1 {
+    height: 350px;
+    width: 100%;
+    max-width: 560px;
+    margin-left: 12%;
+    text-align: left;
+}
+
+.container1 img {
+    width: 301px;
+    padding-top: 60px;
+}
+
+.container1 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: black;
+    padding-left: 27px;
+    font-size: 28px;
+}
+
+form {
+    width: 396px;
+    height: 335px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.109);
+    margin: 45px 0px 0px 20px;
+}
+
+form div input {
+    width: 90%;
+    height: 49px;
+    margin-top: 14px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid rgb(202, 202, 202);
+    font-size: 17px;
+    padding-left: 19px;
+}
+
+form div input:focus {
+    border: 1px solid rgb(0, 157, 255);
+}
+
+.btn_entrar {
+    width: 90%;
+    height: 47px;
+    border-radius: 8px;
+    margin-top: 14px;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(28, 130, 225);
+    outline: none;
+    border: none;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.btn_entrar:hover {
+    background-color: rgb(26, 114, 197);
+}
+
+.hr_login {
+    width: 92%;
+    margin: auto;
+    border-color: rgba(255, 255, 255, 0.326);
+}
+
+.esqueceu_senha {
+    margin: 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 14px;
+    color: rgb(28, 130, 225);
+}
+
+.esqueceu_senha:hover {
+    text-decoration: underline;
+}
+
+.bloco_esqueceu_senha {
+    width: 100%;
+    padding: 20px;
+}
+
+.btn_nova_conta {
+    width: 40%;
+    height: 47px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(33, 184, 50);
+    outline: none;
+    border: none;
+    transition: .3s;
+    cursor: pointer;
+    margin: 20px 0px;
+}
+
+.btn_nova_conta:hover {
+    background-color: rgb(27, 145, 41);
+}
+
+.text_bottom {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 14px;
+    padding-top: 27px;
+}
+
+.text_bottom a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    width: 100%;
+    background-color: white;
+    margin-top: 200px;
+}
+
+.container_footer {
+    width: 100%;
+    max-width: 80%;
+    margin: auto;
+    padding: 30px 0px;
+}
+
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+    text-align: justify;
+    line-height: 22px;
+}
+
+.text_copy {
+    padding-top: 15px;
+}
+
+.hr_footer {
+    border-color: #ffffff71;
+    width: 100%;
+    max-width: 600px;
+    margin-right: auto;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.text_footer_div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.text_footer_div button {
+    padding: 1px 10px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    border: 1px solid rgb(187, 187, 187);
+    transition: .3s;
+}
+
+.text_footer_div button:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        display: table;
+        margin: 0 auto;
+        margin-top: 0px;
+    }
+
+    .container1 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .container2 {
+        margin: auto;
+    }
+
+    form {
+        margin: 0 auto;
+    }
+
+    .container1 h1 {
+        font-size: 23px;
+        width: 100%;
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .container1 img {
+        padding-top: 20px;
+    }
+
+}
