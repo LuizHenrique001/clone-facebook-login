@@ -221,3 +221,14 @@ footer p {
     }
 
 }
+
+@media screen and (max-width: 500px) {
+    
+    .container1 {
+        height: 200px;
+    }
+
+    .container1 h1 {
+        display: none;
+    }
+}
